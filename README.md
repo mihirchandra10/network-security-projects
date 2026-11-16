@@ -61,5 +61,4 @@ Production network-security projects I planned, designed and delivered. They cov
 AWS Certified Solutions Architect – Associate · Palo Alto ACE · Fortinet NSE 1 & 2 · JNCIA-Junos · JNCIA-Cloud · JNCIS-Cloud · CCNA R&S · HCNA R&S
 
 ## Related
-- [network-projects-portfolio](https://github.com/mihirchandra10/network-projects-portfolio): all infrastructure projects, including routing, data center and wireless
-- [network-security-labs](https://github.com/mihirchandra10/network-security-labs): example configurations for the techniques used in these projects
+- [network-projects-portfolio](https://github.com/mihirchandra10/network-projects-portfolio): network engineering career and projects
