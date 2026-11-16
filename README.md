@@ -4,7 +4,16 @@ Production network-security projects I planned, designed and delivered. They cov
 
 > 🔒 **Confidentiality:** only scope, security design approach and technologies are described. No IP addresses, rule bases, configurations or topology details from customer networks are published. Defense and government customers are described by sector, not by name.
 
-## Security projects
+## ⭐ Major projects
+
+| Project | Customer | What I delivered |
+|---|---|---|
+| [Data security system: Juniper upgrade & colour BGP](projects/S11-grameenphone-data-security-system.md) | **Grameenphone**, the largest mobile operator in Bangladesh | Planned and implemented the Juniper firmware upgrade and BGP community ("colour") routing for the operator's data security system |
+| [Data center perimeter firewall HA](projects/S02-defense-dc-perimeter-ha.md) | Defense data center, Dhaka | Planned, designed and implemented active/passive HA between **Palo Alto PA-3060** firewalls |
+| [UTM and threat prevention rollout](projects/S04-fortigate-utm-threat-prevention.md) | **Laugfs Gas Bangladesh** | **FortiGate 100E** integration with IPS, antivirus, threat prevention and site-to-site IPsec VPN |
+| [University DMZ firewall](projects/S05-university-dmz-firewall.md) | Science & technology university | **Juniper SRX1500** deployed as DMZ firewall with ACLs and UTM |
+
+## All security projects
 
 | # | Project | Sector | Firewall platform | Security controls delivered |
 |---|---|---|---|---|
@@ -18,19 +27,21 @@ Production network-security projects I planned, designed and delivered. They cov
 | S08 | [Secure enterprise wireless and guest isolation](projects/S08-wireless-security-guest-access.md) | Apparel manufacturing (MAS Intimates) | Ruckus ZD-1200 | Controller HA, SSID authentication, ACL, token-based guest pass |
 | S09 | [Carrier gateway security: IIG / ISP](projects/S09-iig-carrier-security-ddos.md) | International Internet Gateway (Earth Telecommunication) | Juniper MX series | Firewalls, intrusion detection, DDoS mitigation, BGP security |
 | S10 | [Cloud security: IAM, MFA and secure architecture](projects/S10-cloud-security-iam-mfa.md) | Enterprise customers (Open Communication, RASA Technologies) | AWS / Azure / GCP | IAM roles and policies, MFA, cloud security architecture |
+| S11 | [Data security system: Juniper upgrade & colour BGP](projects/S11-grameenphone-data-security-system.md) | Mobile operator (Grameenphone) | Juniper | Firmware upgrade of the security system, BGP community traffic steering |
 
 ## Security controls by project
 
-| Control | S01 | S02 | S03 | S04 | S05 | S06 | S07 | S08 | S09 | S10 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| NGFW / zone-based policy | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | |
-| Firewall / controller HA | ✅ | ✅ | | | | | | ✅ | | |
-| IPS / IDS / threat prevention | ✅ | | | ✅ | | | | | ✅ | |
-| Antivirus / UTM | ✅ | | ✅ | ✅ | ✅ | ✅ | | | | |
-| IPsec VPN | ✅ | | | ✅ | | ✅ | ✅ | | | |
-| ACL / segmentation | ✅ | | ✅ | | ✅ | ✅ | ✅ | ✅ | | |
-| DDoS mitigation | | | | | | | | | ✅ | |
-| Identity / authentication (IAM, MFA, wireless auth) | | | | | | | | ✅ | | ✅ |
+| Control | S01 | S02 | S03 | S04 | S05 | S06 | S07 | S08 | S09 | S10 | S11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| NGFW / zone-based policy | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | | |
+| Firewall / controller HA | ✅ | ✅ | | | | | | ✅ | | | |
+| IPS / IDS / threat prevention | ✅ | | | ✅ | | | | | ✅ | | |
+| Antivirus / UTM | ✅ | | ✅ | ✅ | ✅ | ✅ | | | | | |
+| IPsec VPN | ✅ | | | ✅ | | ✅ | ✅ | | | | |
+| ACL / segmentation | ✅ | | ✅ | | ✅ | ✅ | ✅ | ✅ | | | |
+| DDoS mitigation | | | | | | | | | ✅ | | |
+| Identity / authentication (IAM, MFA, wireless auth) | | | | | | | | ✅ | | ✅ | |
+| Security platform upgrade / traffic steering | | | | | | | | | | | ✅ |
 
 ## Security responsibilities by role
 
